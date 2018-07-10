@@ -1,7 +1,6 @@
 .contact-section {
     display: flex;
     justify-content: center;
-    width: 100%;
     background-color: #ffffff;
     color: #111111;
 }
@@ -12,7 +11,6 @@
     align-items: center;
     padding: 50px 0;
 }
-
 
 .contact-section__info-container {
     display: flex;
@@ -73,6 +71,7 @@
 }
 
 .contact-section__text {
+    font-family: Lato-Light;
     font-size: 18px;
 }
 

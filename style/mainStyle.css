@@ -1,5 +1,7 @@
 @import 'saleSection.css';
 @import 'contactSection.css';
+@import 'createSection.css';
+@import 'bidSection.css';
 
 @font-face {
     font-family: Lato-Light;
@@ -40,7 +42,7 @@
 
 .button {
     width: max-content;
-    padding: 35px 80px;
+    padding: 35px 70px;
     border-radius: 100px;
     font-size: 20px;
     color: #353535;
@@ -49,14 +51,32 @@
     font-family: Lato-Light;
 }
 
+.rhombus {
+    width: 29vw;
+    height: 29vw;
+    transform: rotate(-45deg);
+    border: 2px solid #ecba55;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+}
+
+
 
 h2 {
     font-family: SnellRoundhand-Bold;
+    font-weight: bold;
     font-size: 40px;
 }
 
 h3 {
     font-size: 25px;
     font-family: Lato-Light;
+}
+
+
+section {
+    width: 100%;
 }
 
