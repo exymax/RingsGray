@@ -1,0 +1,56 @@
+.header{
+	width: 100%;
+	background: url(../images/headerBackground.png) 100% 100% no-repeat;
+	height: 37vw;
+	background-size: cover; 
+}
+
+.header-container__contacts-container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.logo{
+	width: 18%;
+}
+
+.header-container__contacts-item{
+	display: flex;
+	align-items: center;
+}
+
+.header-container__contacts-geolocation-text{
+	margin-left: 10px;
+	font-size: 18px;
+	color: white;
+}
+
+.header-container__contacts-phone-text{
+	margin-left: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+.header-container__title{
+	color: #ffffff;
+	font-size: 50px;
+	width: 65%;
+	margin-top: 11.5%;
+}
+
+.header-container__caption{
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin-top: 5.5%;
+}
+
+.header-container__caption_unic{
+	color: #ecba55;
+}
+
+.header-container__button{
+	margin-top: 5.5%;
+}

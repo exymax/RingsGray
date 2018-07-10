@@ -1,5 +1,6 @@
 @import 'saleSection.css';
 @import 'contactSection.css';
+@import 'headerStyle.css';
 
 @font-face {
     font-family: Lato-Light;
@@ -33,8 +34,7 @@
 }
 
 .inner-container {
-    max-width: 94%;
-    width: 100%;
+    width: 61%;
     margin: 0 auto;
     height: 100%;
 }
