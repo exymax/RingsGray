@@ -1,0 +1,21 @@
+@font-face {
+
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.inner-container{
+    max-width: 94%;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
