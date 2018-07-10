@@ -2,6 +2,7 @@
 @import 'contactSection.css';
 @import 'createSection.css';
 @import 'bidSection.css';
+@import 'headerStyle.css';
 
 @font-face {
     font-family: Lato-Light;
@@ -10,20 +11,20 @@
 
 @font-face {
     font-family: SnellRoundhand-Bold;
-    src: url(../fonts/SnellRoundhand-Bold.otf);
+    src: url(../fonts/SnellRoundhand-Bold.ttf);
 }
 
 @font-face {
-    font-family: PFRegalDisplayPro-Bold;
-    src: url(../fonts/PFRegalDisplayPro-Bold.otf);
+    font-family: "PFRegalDisplayPro-Bold";
+    src: url("../fonts/PFRegalDisplayPro-Bold.ttf");
 }
 
 @font-face {
     font-family: PFRegalDisplayPro-Regular;
-    src: url(../fonts/PFRegalDisplayPro-Regular.otf);
+    src: url(../fonts/PFRegalDisplayPro-Regular.ttf);
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -33,9 +34,8 @@
     position: relative;
 }
 
-.inner-container{
-    max-width: 94%;
-    width: 100%;
+.inner-container {
+    width: 61%;
     margin: 0 auto;
     height: 100%;
 }
@@ -65,7 +65,7 @@
 
 
 h2 {
-    font-family: SnellRoundhand-Bold;
+    font-family: "SnellRoundhand-Bold";
     font-weight: bold;
     font-size: 40px;
 }
