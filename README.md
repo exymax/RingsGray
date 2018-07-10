@@ -1,3 +1,3 @@
 # RingsGray
 
-https://evgeniigrh.github.io/RingsGray/.
+https://antonborovoi.github.io/RingsGray/
