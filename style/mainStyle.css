@@ -1,3 +1,6 @@
+@import 'saleSection.css';
+@import 'contactSection.css';
+
 @font-face {
 
 }
@@ -17,5 +20,27 @@
     width: 100%;
     margin: 0 auto;
     height: 100%;
+}
+
+.button {
+    width: max-content;
+    padding: 35px 80px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: #353535;
+    text-transform: uppercase;
+    background-color: #ecba55;
+    font-family: 'Lato-Light';
+}
+
+
+h2 {
+    font-family: "PFRegalDisplayPro-Bold";
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Lato-Light';
 }
 
