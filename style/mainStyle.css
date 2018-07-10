@@ -2,7 +2,23 @@
 @import 'contactSection.css';
 
 @font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato-light.ttf);
+}
 
+@font-face {
+    font-family: SnellRoundhand-Bold;
+    src: url(../fonts/SnellRoundhand-Bold.otf);
+}
+
+@font-face {
+    font-family: PFRegalDisplayPro-Bold;
+    src: url(../fonts/PFRegalDisplayPro-Bold.otf);
+}
+
+@font-face {
+    font-family: PFRegalDisplayPro-Regular;
+    src: url(../fonts/PFRegalDisplayPro-Regular.otf);
 }
 
 .wrapper{
@@ -30,17 +46,17 @@
     color: #353535;
     text-transform: uppercase;
     background-color: #ecba55;
-    font-family: 'Lato-Light';
+    font-family: Lato-Light;
 }
 
 
 h2 {
-    font-family: "PFRegalDisplayPro-Bold";
+    font-family: SnellRoundhand-Bold;
     font-size: 40px;
 }
 
 h3 {
     font-size: 25px;
-    font-family: 'Lato-Light';
+    font-family: Lato-Light;
 }
 
