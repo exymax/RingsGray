@@ -71,7 +71,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
     .button{
-        font-size: 10px;
+        font-size: 12px;
         padding: 5.5% 9%;
     }
 }
@@ -87,13 +87,13 @@
     font-family: Lato-Light;
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1800px) {
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
     .button-default{
         font-size: 15px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
     .button-default{
         font-size: 10px;
     }
@@ -104,20 +104,32 @@
     font-size: 18px;
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1800px) {
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
     .header-section_button{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
     .header-section_button{
-        font-size: 9px;
+        font-size: 10px;
     }
 }
 
 .dream-section_button{
     padding: 5% 8%;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .dream-section_button{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .dream-section_button{
+        font-size: 12px;
+    }
 }
 
 .rhombus {
@@ -137,13 +149,13 @@ h2 {
     font-size: 40px;
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1800px) {
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
     h2{
         font-size: 34px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
     h2{
         font-size: 28px;
     }
@@ -155,13 +167,13 @@ h3 {
     font-weight: 300;
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1800px) {
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
     h3{
         font-size: 20px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
     h3{
         font-size: 15px;
     }

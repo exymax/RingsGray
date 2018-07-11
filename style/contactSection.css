@@ -39,6 +39,18 @@
     padding: 5px 0;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .contact-section__info-block-title{
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .contact-section__info-block-title{
+        font-size: 18px;
+    }
+}
+
 .contact-section__numbers-info {
     display: flex;
     margin: 20px 0;
@@ -54,6 +66,18 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .contact-section__number-text{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .contact-section__number-text{
+        font-size: 21px;
+    }
 }
 
 .contact-section__number-text:nth-child(1) {
@@ -78,10 +102,34 @@
     font-size: 18px;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .contact-section__text{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .contact-section__text{
+        font-size: 14px;
+    }
+}
+
 .contact-section__feedback-text {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .contact-section__feedback-text{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .contact-section__feedback-text{
+        font-size: 16px;
+    }
 }
 
 .contact-section__image {

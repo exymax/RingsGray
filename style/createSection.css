@@ -54,6 +54,18 @@
     padding: 60px 0;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .create-section__slider-header{
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .create-section__slider-header{
+        font-size: 33px;
+    }
+}
+
 .create-section__slide {
     margin-right: 21vw;
     display: flex;
@@ -67,12 +79,36 @@
     padding: 10px 0;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .create-section__slide-header{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .create-section__slide-header{
+        font-size: 18px;
+    }
+}
+
 .create-section__slide-text {
     text-indent: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 1.5;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .create-section__slide-text{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .create-section__slide-text{
+        font-size: 14px;
+    }
 }
 
 .create-section__slider-controllers {
@@ -87,6 +123,18 @@
     padding: 20px 40px;
     font-size: 40px;
     color: #a1a1a1;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .create-section__slider-label{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .create-section__slider-label{
+        font-size: 30px;
+    }
 }
 
 .create-section__slider-label-number {
