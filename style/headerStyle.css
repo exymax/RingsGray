@@ -24,6 +24,8 @@
 .header-container__contacts-item{
 	display: flex;
 	align-items: center;
+	font-family: 'Lato-Light', sans-serif;
+	letter-spacing: 1px;
 }
 
 .header-container__contacts-geolocation-text{
