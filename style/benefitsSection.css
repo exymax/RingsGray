@@ -30,6 +30,6 @@
 	margin-top: 11%;
 }
 
-.benefits-list__point: nth-child(1) {
+.benefits-list__point:nth-child(1) {
 	margin-top: 0;
 }
