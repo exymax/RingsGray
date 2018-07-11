@@ -81,8 +81,8 @@
     border-radius: 100px;
     font-size: 20px;
     color: #353535;
-    text-transform: uppercase;
     background-color: #ecba55;
+    text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
@@ -110,7 +110,9 @@
     color: white;
     text-transform: uppercase;
     border: 2px solid #ecba55;
-    font-family: Lato-Light;
+    font-family: 'Lato-Light', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
@@ -167,6 +169,9 @@
     background-color: transparent;
 }
 
+h1 {
+    font-family: "PFRegalDisplayPro-Regular";
+}
 
 
 h2 {

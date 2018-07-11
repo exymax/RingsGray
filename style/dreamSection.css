@@ -23,9 +23,12 @@
     align-items: center;
 }
 
-.dream-section__text{
-    color: white;
+.dream-section__text {
+    font-family: 'Lato-Light', sans-serif;
     font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: white;
 }
 
 .dream-section__emblem{

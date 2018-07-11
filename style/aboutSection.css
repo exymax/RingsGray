@@ -47,6 +47,9 @@
 }
 
 .about_info-text{
+    font-family: 'Lato-Light', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
     width: 41%;
     margin-top: 3%;
     text-align: justify;
@@ -96,4 +99,40 @@
     top: -21%;
     right: 43%;
     width: 6%;
+}
+
+
+.about .slick-next::before, slick-prev:before {
+     content: "";
+ }
+
+.about .slick-next::before, slick-prev:before {
+    content: "";
+}
+
+.about .slick-prev:before {
+    content: '';
+}
+
+.about .slick-next {
+    background: url("../images/arrow-right.png") no-repeat;
+}
+
+.about .slick-prev {
+    background: url("../images/arrow-right.png") no-repeat;
+    transform: rotate(180deg);
+}
+
+.about .slick-arrow {
+    width: 20px;
+    height: 40px;
+}
+
+.about .slick-disabled {
+    cursor: auto;
+    opacity: 0.3;
+}
+
+.about .slick-slide:focus {
+    outline: none;
 }
