@@ -7,7 +7,7 @@
 .create-section__inner-container {
     display: flex;
     width: 100%;
-    padding: 60px 0;
+    padding-top: 60px;
 }
 
 .create-section__info {
@@ -77,11 +77,57 @@
 
 .create-section__slider-controllers {
     display: flex;
+    align-items: center;
     padding: 80px 0;
 }
 
 .create-section__slider-label {
-    padding: 0 40px;
+    display: flex;
+    font-family: 'PFRegalDisplayPro-Regular';
+    padding: 20px 40px;
+    font-size: 40px;
+    color: #a1a1a1;
 }
+
+.create-section__slider-label-number {
+
+}
+
+.create-section__slider-label-number--right {
+    position: relative;
+    top: 10px;
+    right: 5px
+}
+
+.create-section__slider-label-number--left{
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+
+.create-section__slider-label-separator {
+    display: inline-block;
+    transform: rotate(25deg);
+}
+
+
+.create-section__slider-controller {
+    width: 26px;
+    height: 37px;
+    background: url(../images/arrow-right.png) no-repeat;
+}
+
+.create-section__slider-controller--disabled {
+    opacity: 0.3;
+}
+
+.create-section__slider-controller--right {
+    transform: rotate(2deg);
+}
+
+.create-section__slider-controller--left {
+    transform: rotate(180deg);
+}
+
 
 
