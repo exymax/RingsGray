@@ -35,7 +35,8 @@
 
 .contact-section__info-block-title {
     font-size: 25px;
-    font-family: Lato-Light;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     padding: 5px 0;
 }
 
@@ -51,8 +52,8 @@
 
 .contact-section__number-text {
     font-size: 30px;
-    font-family: Lato-Light;
-    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     justify-content: space-between;
 }
 
@@ -72,11 +73,15 @@
 }
 
 .contact-section__text {
-    font-family: Lato-Light;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
     font-size: 18px;
 }
 
 .contact-section__feedback-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 20px;
 }
 

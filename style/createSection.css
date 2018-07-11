@@ -47,7 +47,8 @@
 }
 
 .create-section__slider-header {
-    font-family: Lato-Light;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     color: #ecba55;
     font-size: 50px;
     padding: 60px 0;
@@ -60,15 +61,16 @@
 }
 
 .create-section__slide-header {
-    font-family: Lato-Light;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     font-size: 25px;
-    font-weight: bold;
     padding: 10px 0;
 }
 
 .create-section__slide-text {
     text-indent: 20px;
-    font-family: Lato-Light;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 18px;
     line-height: 1.5;
 }
