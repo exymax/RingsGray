@@ -10,14 +10,6 @@
 	position: relative;
 }
 
-.KOSTYL-1{
-	top: -8%;
-	position: absolute;
-	width: 80%;
-	z-index: 2;
-	left: 26%;
-}
-
 .benefits-section__title{
 	margin-top: 4.6%;
 	z-index: 3;
@@ -31,15 +23,18 @@
 .benefits-section__main-info{
 	display: flex;
 	width: 100%;
+	position: relative;
 }
 
 .benefits-list{
 	font-size: 25px;
+	display: flex;
+	flex-direction: column;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
 	.benefits-list{
-		font-size: 20px;
+		font-size: 23px;
 	}
 }
 
@@ -49,10 +44,135 @@
 	}
 }
 
-.benefits-list__point {
+.benefits-list__point:nth-child(1) {
+	margin-top: 0;
+}
+
+.switch-panel-button{
+	color: black;
+	border-bottom: 2px solid white;
 	margin-top: 11%;
 }
 
-.benefits-list__point:nth-child(1) {
-	margin-top: 0;
+.switch-panel-button:hover{
+	cursor: pointer;
+	border-bottom: 2px solid orange;
+
+}
+
+.input-open,
+.input-button-part{
+	display: none;
+}
+
+.input-open:checked + .switch-panel-button,
+.input-button-part:checked + .button-open{
+	border-bottom: 2px solid #f7d290;
+}
+
+.ringsSecondBlock{
+	position: absolute;
+	left: 34%;
+	top: 29%;
+	z-index: 4;
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+	.ringsSecondBlock{
+		width: 14%;
+	}
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+	.ringsSecondBlock{
+		width: 14%;
+		top: 19%;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	.ringsSecondBlock{
+		width: 14%;
+		top: 30%;
+	}
+}
+
+.briliantsSecondBlock{
+	position: absolute;
+	bottom: -45%;
+	right: -18%;
+	z-index: 4;
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+	.briliantsSecondBlock{
+		bottom: -30%;
+		width: 27%;
+	}
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+	.briliantsSecondBlock{
+		bottom: -12%;
+		width: 27%;
+	}
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+	.briliantsSecondBlock{
+		bottom: -66%;
+		width: 27%;
+		right: -24%;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+	.briliantsSecondBlock{
+		bottom: -43%;
+		width: 27%;
+		right: -24%;
+	}
+}
+
+.secondSection_rhombus{
+	position: absolute;
+	right: 0;
+	top: -18%;
+	z-index: 2;
+	transform: rotate(-45deg);
+	border: 2px solid #ecba55;
+	border-radius: 6px;
+	text-align: center;
+	background-color: transparent;
+}
+
+.second-section_rhombus-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	transform: rotate(45deg);
+}
+
+.second-section_info-title{
+	font-size: 30px;
+	margin-bottom: 12%;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	.second-section_info-title{
+		font-size: 25px;
+		margin-bottom: 5%;
+	}
+}
+
+.second-section_info-paragraph{
+	font-size: 18px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	.second-section_info-paragraph{
+		font-size: 14px;
+	}
 }

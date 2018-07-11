@@ -51,19 +51,48 @@
                 <h2 class="benefits-section__title">Наши преимущества</h2>
                 <h3 class="benefits-section__caption">то, чем мы гордимся</h3>
                 <div class="benefits-section__main-info">
-                    <ul class="benefits-list">
-                        <li class="benefits-list__point">1. Индивидуальность</li>
-                        <li class="benefits-list__point">2. Гарантия качества</li>
-                        <li class="benefits-list__point">3. 3D-моделирование</li>
-                        <li class="benefits-list__point">4. Дизайн любой сложности</li>
-                        <li class="benefits-list__point">5. Бесшовная технология</li>
-                        <li class="benefits-list__point"> 6. Скорость выполнения работы</li>
-                    </ul>
+                    <div class="benefits-list">
+                        <input type="radio" id="radio-open-1" class="input-open" checked onclick="foo()" name="radios-open">
+                        <label for="radio-open-1" class="switch-panel-button">
+                            <span class="benefits-list__point">1. Индивидуальность</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-2" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-2" class="switch-panel-button">
+                            <span class="benefits-list__point">2. Гарантия качества</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-3" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-3" class="switch-panel-button">
+                            <span class="benefits-list__point">3. 3D-моделирование</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-4" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-4" class="switch-panel-button">
+                            <span class="benefits-list__point">4. Дизайн любой сложности</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-5" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-5" class="switch-panel-button">
+                            <span class="benefits-list__point">5. Бесшовная технология</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-6" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-6" class="switch-panel-button">
+                            <span class="benefits-list__point">6. Скорость выполнения работы</span>
+                        </label>
+
+                    </div>
+                    <img src="images/ringsSecondBlock.png" class="ringsSecondBlock" alt="">
+                    <div class="bid-section__rhombus secondSection_rhombus">
+                        <div id="second-section_rhombus-content" class="second-section_rhombus-content">
+
+                        </div>
+                    </div>
+                    <img src="images/briliantsSecondBlock.png" class="briliantsSecondBlock" alt="">
                 </div>
-                <img src="images/KOSTYL.png" class="KOSTYL-1" alt="">
             </div>
         </div>
-
     </section>
      <section class="dream-section">
          <div class="inner-container">
@@ -425,8 +454,9 @@
  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
  <script type="text/javascript" src="slick/slick.min.js"></script>
 
+ <script type="text/javascript" src="js/lodash.js"></script>
  <script type="text/javascript" src="js/about-slider.js"></script>
-
+ <script type="text/javascript" src="js/js-switcher.js"></script>
 
 </body>
 </html>
