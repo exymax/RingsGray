@@ -1,0 +1,41 @@
+.dream-section{
+    width: 100%;
+    background: url(../images/dreamBlockBackground.png) 100% 100% no-repeat;
+    height: 37vw;
+    background-size: cover;
+}
+
+.dream-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dream-section__title{
+    color: white;
+    margin-top: 10.5%;
+}
+
+.dream-section_text-container{
+    margin-top: 4.7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dream-section__text{
+    color: white;
+    font-size: 18px;
+}
+
+.dream-section__emblem{
+    margin-top: 4.7%;
+}
+
+.dream-section_buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    margin-top: 10.5%;
+}
+
