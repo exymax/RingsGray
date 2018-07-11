@@ -5,6 +5,8 @@
 @import 'headerStyle.css';
 @import 'benefitsSection.css';
 @import 'faqSection.css';
+@import 'dreamSection.css';
+
 
 /*@font-face {*/
     /*font-family: 'Lato-Light';*/
@@ -58,6 +60,21 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+.button-default {
+    width: max-content;
+    padding: 35px 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #ecba55;
+    font-family: Lato-Light;
+}
+
+.dream-section_button{
+    padding: 35px 55px;
 }
 
 .rhombus {
