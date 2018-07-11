@@ -109,7 +109,6 @@ h3 {
 section {
     width: 100%;
     position: relative;
-    overflow: hidden;
 }
 
 .section-background-line {
