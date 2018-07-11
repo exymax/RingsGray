@@ -224,3 +224,6 @@ section {
     bottom: -2460px;
 }
 
+a{
+    text-decoration: none;
+}
