@@ -108,5 +108,16 @@ h3 {
 
 section {
     width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-background-line {
+    height: 200%;
+    background-color: #eeedf2;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 553px;
+    bottom: -2460px;
 }
 
