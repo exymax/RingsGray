@@ -83,8 +83,6 @@
 }
 
 .rhombus {
-    width: 29vw;
-    height: 29vw;
     transform: rotate(-45deg);
     border: 2px solid #ecba55;
     border-radius: 6px;

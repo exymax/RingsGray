@@ -31,7 +31,10 @@
     height: 100%;
 }
 
-
+.bid-section__rhombus {
+    width: 29vw;
+    height: 29vw;
+}
 
 .bid-section__rhombus-container {
     position: absolute;
@@ -44,7 +47,6 @@
     align-items: center;
     background-color: white;
 }
-
 
 .bid-section__rhombus-content {
     display: flex;
