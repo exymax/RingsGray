@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     color: #111111;
-    background-position: center;
+    position: relative;
     background: url(../images/bidSectionDiamondBackground.png) no-repeat;
+    background-size: 100% 218%;
 }
 
 .bid-section__inner-container {
