@@ -7,3 +7,13 @@ $(document).ready(function(){
     dots: true,
   });
 });
+
+$(document).ready(function(){
+    $('.create-section__slider').slick({
+        infinite: true,
+        draggable: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+    });
+});

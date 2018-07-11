@@ -1,8 +1,8 @@
 .about{
     width: 100%;
-    background: white url(../images/aboutSectionBackground.png) 100% 100% no-repeat;
+    background: white url(../images/aboutSectionBackground.png) 69% 3% no-repeat;
     height: 72vw;
-    background-size: cover;
+    background-size: 122%;
 }
 
 .about-container{

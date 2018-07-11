@@ -49,6 +49,32 @@
     height: 100%;
 }
 
+.create-section__slider > .slick-prev {
+    position: absolute;
+    top: 81%;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    left: 0;
+}
+
+.create-section__slider > .slick-next {
+    position: absolute;
+    top: 81%;
+    width: 50px;
+    height: 50px;
+    right: 75%;
+    opacity: 0;
+}
+
+.create-section__slider > ul {
+    opacity: 0;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
+
 .button {
     width: max-content;
     padding: 8.5% 21%;
