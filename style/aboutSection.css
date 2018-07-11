@@ -27,6 +27,18 @@
     justify-content: space-between;
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+    .about_info-block{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .about_info-block{
+        font-size: 13px;
+    }
+}
+
 .about_info-text{
     width: 41%;
     margin-top: 3%;

@@ -26,6 +26,18 @@
 	font-size: 25px;
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+	.benefits-list{
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+	.benefits-list{
+		font-size: 15px;
+	}
+}
+
 .benefits-list__point {
 	margin-top: 11%;
 }

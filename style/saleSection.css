@@ -26,3 +26,8 @@
     position: absolute;
     bottom: 0
 }
+
+.sale-section__button-container{
+    display: flex;
+    justify-content: center;
+}
