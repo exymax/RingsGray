@@ -1,0 +1,6 @@
+.about{
+    width: 100%;
+    background: white url(../images/aboutSectionBackground.png) 100% 100% no-repeat;
+    height: 72vw;
+    background-size: cover;
+}
