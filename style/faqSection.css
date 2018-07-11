@@ -10,7 +10,6 @@
 .faq-section__inner-container {
     display: flex;
     flex-direction: column;
-    width: 60%;
     padding-top: 165px;
     position: relative;
 }
@@ -53,4 +52,9 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 1.4;
+}
+
+.faq-section__image {
+    width: 18vw;
+    height: 14vw;
 }

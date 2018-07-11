@@ -21,8 +21,8 @@
 }
 
 .create-section__main-image {
-    width: 95%;
-    height: 95%;
+    width: 47vw;
+    height: 46vw;
 }
 
 .create-section__info-container {
@@ -55,7 +55,7 @@
 }
 
 .create-section__slide {
-    width: 55%;
+    margin-right: 21vw;
     display: flex;
     flex-direction: column;
 }
