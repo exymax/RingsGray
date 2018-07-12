@@ -165,6 +165,10 @@
     background: url(../images/arrow-right.png) no-repeat;
 }
 
+.create-section__slider-controller:hover{
+    cursor: pointer;
+}
+
 .create-section__slider-controller--disabled {
     opacity: 0.3;
 }
