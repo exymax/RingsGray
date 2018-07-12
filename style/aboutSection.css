@@ -50,9 +50,8 @@
 
 .about_types__type-title {
     font-size: 25px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato-Bold', sans-serif;
     color: #a1a1a1;
-    font-weight: 500;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
@@ -69,7 +68,6 @@
 
 .about_info-text{
     font-family: 'Lato-Light', sans-serif;
-    font-weight: 300;
     line-height: 1.4;
     width: 41%;
     margin-top: 3%;
