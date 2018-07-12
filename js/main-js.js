@@ -16,19 +16,43 @@ const rings = [
     description: "Одним из самых модных тенденций в мире свадебных украшений в мире стали комбинированные модели обручальных колец из драгоценных металлов двух оттенков. Соединение белого и желтого или белого и красного золота в изделии символизируют  соединение двух сердец. А с практической точки зрения сочетание двух цветов в кольцах позволяет носить их  с другими ювелирными украшениями разных оттенков абсолютно гармонично, не вступая в дисонанс. Сегодня можно выбрать обручальное кольцо, оформленное узорами, символами или знаками, которые близки и значимы для влюблённой пары."
   },
 ];
+var createSectionSlideQuntity = 0;
 
-function changeRing(slideNumber) {
+function onChangeRing(slideNumber) {
   $('.types-section__name-label').html(rings[slideNumber].name);
   $('.types-section__type-description').html(rings[slideNumber].description);
 }
 
-
-function onSlideChange(slideNumber) {
+function onrCreateSectionSlideChange(slideNumber) {
+  const slideQuantity = getCreateSectionSlideQuntity();
   $('.create-section__slider-label-number--left').html(slideNumber);
   $('.create-section__slider-header').html('Шаг ' + slideNumber);
+
+  if (slideNumber === 1) {
+    $('.create-section__slider-controller--left').addClass('create-section__slider-controller--disabled');
+  } else {
+    $('.create-section__slider-controller--left').removeClass('create-section__slider-controller--disabled');
+  }
+
+  if (slideNumber === slideQuantity) {
+    $('.create-section__slider-controller--right').addClass('create-section__slider-controller--disabled');
+  } else {
+    $('.create-section__slider-controller--right').removeClass('create-section__slider-controller--disabled');
+  }
+}
+
+function setCreateSectionSlideQuntity () {
+  createSectionSlideQuntity =  $('.create-section__slider').children().length;
+  $('.create-section__slider-label-number--right').html(createSectionSlideQuntity);
+}
+
+function getCreateSectionSlideQuntity () {
+  return createSectionSlideQuntity;
 }
 
 $(document).ready(function(){
+  setCreateSectionSlideQuntity();
+
   $('.about-slider').slick({
     infinite: false,
     draggable: false,
@@ -47,7 +71,6 @@ $(document).ready(function(){
 });
 
 
-
 $(document).ready(function(){
     $('.create-section__slider').slick({
         infinite: false,
@@ -59,7 +82,7 @@ $(document).ready(function(){
     });
 
   $(".create-section__slider").on("afterChange", function (event, slick, slide) {
-    onSlideChange(slide+1);
+    onrCreateSectionSlideChange(slide+1);
   });
 });
 
@@ -75,6 +98,6 @@ $(document).ready(function(){
     });
 
   $(".types-section__slider").on("afterChange", function (event, slick, slide) {
-    changeRing(slide);
+    onChangeRing(slide);
   });
-})
+});
