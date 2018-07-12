@@ -98,6 +98,12 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .button{
+        font-size: 34px;
+    }
+}
+
 .button-default {
     display: flex;
     align-items: center;
@@ -126,7 +132,8 @@
 
 @media screen and (max-width: 1200px) {
     .button-default{
-        margin-bottom: 10px;
+        font-size: 34px;
+        margin-bottom: 35px;
     }
 }
 
@@ -233,6 +240,12 @@ h2 {
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     h2{
         font-size: 28px;
+    }
+}
+
+@media screen and (max-device-width: 1200px) {
+    h2{
+        font-size: 50px;
     }
 }
 
