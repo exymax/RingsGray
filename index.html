@@ -17,18 +17,18 @@
         <div class="inner-container">
             <div class="header-container">
                 <div class="header-container__contacts-container">
-                    <img src="images/ringsLogo.png" class="logo">
+                    <a href="index.html" class="logo"></a>
                     <div class="header-container__contacts-item">
                         <img src="images/headerInfoLocation.png" class="header-container__contacts-geolocation-img">
                         <span class="header-container__contacts-geolocation-text">Москва, Рязанский проспект, д.8А</span>
                     </div>
                     <div class="header-container__contacts-item">
                         <img src="images/headerInfoPhone.png">
-                        <span class="header-container__contacts-phone-text">+7 499 753 57 27</span>
+                        <a href="tel:" class="header-container__contacts-phone-text">+7 499 753 57 27</a>
                     </div>
                     <div class="header-container__contacts-item">
                         <img src="images/headerInfoPhone.png">
-                        <span class="header-container__contacts-phone-text">+7 925 806 61 04</span>
+                        <a href="tel:" class="header-container__contacts-phone-text">+7 925 806 61 04</a>
                     </div>
                 </div>
                 <div class="header-container__title">
@@ -40,30 +40,78 @@
                     <h3>по стоимости от 7900 рублей.</h3>
                 </div>
                 <div class="header-container__button">
-                    <div class="button header-section_button">Получить консультацию</div>
+                    <div class="button header-section_button" onclick="popup('request','Цель звонка (Получить консультацию)','Получить консультацию','Заполните форму ниже и наш менеджер свяжется <br />с Вами в ближайшее время','Получить консультацию');">Получить консультацию</div>
                 </div>
             </div>
         </div>
     </header>
+     <div class="popup_overlay" onClick="popup_out();"></div>
+     <div class="popup" id="request">
+         <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+         <div class="popup_h1">Оставьте заявку</div>
+         <div class="popup_h2">
+             Оставьте заявку, и наш специалист свяжется<br>
+             с вами в ближайшее время.
+         </div>
+         <form>
+             <label class="name required">
+                 <input type="text" name="name" placeholder="Ваше имя">
+             </label><br>
+             <label class="number required"><input type="text" name="phone" placeholder="Ваш телефон"></label><br>						<label class="email required">
+             <input type="text" name="email" placeholder="Ваш E-mail">
+         </label><br>
+             <div data-name="request" disabled="disabled" class="noselect btn">Заказать</div>
+         </form>
+     </div>
+
     <section class="benefits-section">
         <div class="inner-container">
             <div class="benefits-section-container">
                 <h2 class="benefits-section__title">Наши преимущества</h2>
                 <h3 class="benefits-section__caption">то, чем мы гордимся</h3>
                 <div class="benefits-section__main-info">
-                    <ul class="benefits-list">
-                        <li class="benefits-list__point">1. Индивидуальность</li>
-                        <li class="benefits-list__point">2. Гарантия качества</li>
-                        <li class="benefits-list__point">3. 3D-моделирование</li>
-                        <li class="benefits-list__point">4. Дизайн любой сложности</li>
-                        <li class="benefits-list__point">5. Бесшовная технология</li>
-                        <li class="benefits-list__point"> 6. Скорость выполнения работы</li>
-                    </ul>
+                    <div class="benefits-list">
+                        <input type="radio" id="radio-open-1" class="input-open" checked onclick="foo()" name="radios-open">
+                        <label for="radio-open-1" class="switch-panel-button">
+                            <span class="benefits-list__point">1. Индивидуальность</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-2" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-2" class="switch-panel-button">
+                            <span class="benefits-list__point">2. Гарантия качества</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-3" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-3" class="switch-panel-button">
+                            <span class="benefits-list__point">3. 3D-моделирование</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-4" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-4" class="switch-panel-button">
+                            <span class="benefits-list__point">4. Дизайн любой сложности</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-5" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-5" class="switch-panel-button">
+                            <span class="benefits-list__point">5. Бесшовная технология</span>
+                        </label>
+
+                        <input type="radio" id="radio-open-6" class="input-open"  onclick="foo()" name="radios-open">
+                        <label for="radio-open-6" class="switch-panel-button">
+                            <span class="benefits-list__point">6. Скорость выполнения работы</span>
+                        </label>
+
+                    </div>
+                    <img src="images/ringsSecondBlock.png" class="ringsSecondBlock" alt="">
+                    <div class="bid-section__rhombus secondSection_rhombus">
+                        <div id="second-section_rhombus-content" class="second-section_rhombus-content">
+
+                        </div>
+                    </div>
+                    <img src="images/briliantsSecondBlock.png" class="briliantsSecondBlock" alt="">
                 </div>
-                <img src="images/KOSTYL.png" class="KOSTYL-1" alt="">
             </div>
         </div>
-
     </section>
      <section class="dream-section">
          <div class="inner-container">
@@ -77,7 +125,7 @@
                  </div>
                  <div class="dream-section_buttons">
                      <div class="button-default dream-section_button">Посмотреть кольца</div>
-                     <div class="button dream-section_button">Оставить заявку</div>
+                     <div class="button dream-section_button" onclick="popup('request','Цель звонка (Получить консультацию)','Получить консультацию','Заполните форму ниже и наш менеджер свяжется <br />с Вами в ближайшее время','Получить консультацию');">Оставить заявку</div>
                  </div>
              </div>
          </div>
@@ -332,7 +380,7 @@
                              <h2 class="bid-section__rhombus-content-text">
                                  Оставьте заявку на кольцо Вашей мечты!
                              </h2>
-                             <div class="button">оставить заявку</div>
+                             <div class="button" onclick="popup('request','Цель звонка (Получить консультацию)','Получить консультацию','Заполните форму ниже и наш менеджер свяжется <br />с Вами в ближайшее время','Получить консультацию');">оставить заявку</div>
                          </div>
                      </div>
                  </div>
@@ -432,7 +480,7 @@
                      </div>
                      <span class="contact-section__feedback-text">или оставьте свой номер - и мы перезвоним!</span>
                      <div class="contact-section__button-container">
-                         <div class="button">Заказать звонок!</div>
+                         <div class="button" onclick="popup('request','Цель звонка (Получить консультацию)','Получить консультацию','Заполните форму ниже и наш менеджер свяжется <br />с Вами в ближайшее время','Получить консультацию');">Заказать звонок!</div>
                      </div>
                  </div>
              </div>
@@ -445,8 +493,9 @@
  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
  <script type="text/javascript" src="slick/slick.min.js"></script>
 
+ <script type="text/javascript" src="js/lodash.js"></script>
  <script type="text/javascript" src="js/about-slider.js"></script>
-
+ <script type="text/javascript" src="js/js-switcher.js"></script>
 
 </body>
 </html>

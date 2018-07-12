@@ -11,8 +11,11 @@
 	margin-top: 10px;
 }
 
+
 .logo{
 	width: 18%;
+	background: url(../images/ringsLogo.png) 100% 100% no-repeat;
+	background-size: contain;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -32,6 +35,7 @@
 	margin-left: 10px;
 	font-size: 18px;
 	color: white;
+	font-family: 'Lato', sans-serif;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
@@ -42,7 +46,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
 	.header-container__contacts-geolocation-text{
-		font-size: 12px;
+		font-size: 11px;
 	}
 }
 
@@ -50,6 +54,7 @@
 	margin-left: 10px;
 	color: white;
 	font-size: 20px;
+	font-family: 'Lato', sans-serif;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
@@ -79,7 +84,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
 	.header-container__title{
-		font-size: 33px;
+		font-size: 31px;
 	}
 }
 
@@ -89,6 +94,7 @@
 	flex-direction: column;
 	color: white;
 	margin-top: 5.5%;
+	font-family: 'Lato', sans-serif;
 }
 
 .header-container__caption_unic{
