@@ -39,7 +39,7 @@ function validation(data) {
 }
 
 $(document).ready(function(){
-  $('.noselect').on('click', function(){
+  $('.submit').on('click', function(){
     const url = '';
     let parsedData = {};
     let data = {};
@@ -48,9 +48,10 @@ $(document).ready(function(){
     data.forEach(item => parsedData[item.name] = item.value);
 
     if (validation(parsedData)) {
-        fetch(url, parsedData)
-          .then(res => res)
-          .catch(err => err)
+      alert('Запрос отправлен');
+        // fetch(url, parsedData)
+        //   .then(res => res)
+        //   .catch(err => err)
     }
   });
 });
