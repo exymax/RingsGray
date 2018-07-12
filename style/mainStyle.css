@@ -296,6 +296,11 @@ a{
     text-align: center;
     margin: 2% 0;
 }
+
+.popup form label .warning {
+    border: 1px solid red;
+}
+
 .popup .btn{
     margin: 10px auto 0;
     line-height: 60px;
