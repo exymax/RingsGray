@@ -7,7 +7,7 @@
 
 @media screen and (max-device-width: 1200px) {
 	.header{
-		height: 49vw;
+		height: 62vw;
 	}
 }
 
@@ -19,7 +19,7 @@
 
 @media screen and (max-device-width: 1200px) {
 	.header-helper-container{
-		height: 49vw;
+		height: 62vw;
 		background: rgba(0,0,0,0.6);
 	}
 }
@@ -32,7 +32,7 @@
 
 @media screen and (max-device-width: 1200px) {
 	.header-container__contacts-container{
-		height: 11vw;
+		height: 12vw;
 		justify-content: center;
 		width: 100%;
 	}
@@ -62,7 +62,7 @@
 
 @media screen and (max-device-width: 1200px) {
 	.logo{
-		width: 80%;
+		width: 62%;
 	}
 }
 
@@ -138,7 +138,7 @@
 
 @media screen and (max-device-width: 1200px) {
 	.header-container__title{
-		font-size: 39px;
+		font-size: 55px;
 		width: 100%;
 		margin-top: 3%;
 		justify-content: center;
