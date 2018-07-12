@@ -160,8 +160,8 @@
 
 
 .create-section__slider-controller {
-    width: 26px;
-    height: 37px;
+    width: 20px;
+    height: 35px;
     background: url(../images/arrow-right.png) no-repeat;
 }
 
@@ -174,7 +174,6 @@
 }
 
 .create-section__slider-controller--right {
-    transform: rotate(2deg);
 }
 
 .create-section__slider-controller--left {
