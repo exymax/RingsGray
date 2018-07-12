@@ -49,9 +49,12 @@
 }
 
 .switch-panel-button{
-	color: black;
+	color: #a1a1a1;
+	padding-bottom: 5px;
 	border-bottom: 2px solid white;
 	margin-top: 11%;
+	font-family: Lato, sans-serif;
+	display: inline-block;
 }
 
 .switch-panel-button:hover{
@@ -68,6 +71,7 @@
 .input-open:checked + .switch-panel-button,
 .input-button-part:checked + .button-open{
 	border-bottom: 2px solid #f7d290;
+	color: black;
 }
 
 .ringsSecondBlock{
