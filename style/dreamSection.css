@@ -5,6 +5,18 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+    .dream-section {
+        height: 39vw;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .dream-section {
+        height: 41vw;
+    }
+}
+
 .dream-section-container{
     display: flex;
     flex-direction: column;
