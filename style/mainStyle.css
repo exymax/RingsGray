@@ -52,6 +52,8 @@
 
 
 .button {
+    display: flex;
+    align-items: center;
     width: max-content;
     padding: 8.5% 21%;
     border-radius: 100px;
@@ -79,6 +81,8 @@
 }
 
 .button-default {
+    display: flex;
+    align-items: center;
     width: max-content;
     padding: 8.5% 21%;
     border-radius: 100px;
@@ -104,6 +108,8 @@
 }
 
 .button-white {
+    display: flex;
+    align-items: center;
     width: max-content;
     padding: 8.5% 21%;
     border-radius: 100px;
