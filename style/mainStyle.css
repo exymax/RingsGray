@@ -7,6 +7,7 @@
 @import 'faqSection.css';
 @import 'dreamSection.css';
 @import 'aboutSection.css';
+@import 'typesSection.css';
 
 /*@font-face {*/
     /*font-family: 'Lato-Light';*/
@@ -110,7 +111,7 @@
     color: white;
     text-transform: uppercase;
     border: 2px solid #ecba55;
-    font-family: 'Lato-Light', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -123,6 +124,31 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     .button-default{
+        font-size: 10px;
+    }
+}
+
+.button-white {
+    width: max-content;
+    padding: 8.5% 21%;
+    border-radius: 100px;
+    font-size: 20px;
+    background-color: white;
+    text-transform: uppercase;
+    border: 2px solid #ecba55;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .button-white{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .button-white{
         font-size: 10px;
     }
 }
