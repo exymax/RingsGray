@@ -53,7 +53,7 @@
 	padding-bottom: 5px;
 	border-bottom: 2px solid white;
 	margin-top: 11%;
-	font-family: Lato, sans-serif;
+	font-family: Lato-Light, sans-serif;
 	display: inline-block;
 	width: max-content;
 }
@@ -174,9 +174,8 @@
 }
 
 .second-section_info-paragraph{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato-Light', sans-serif;
 	font-size: 18px;
-	font-weight: 300;
 	line-height: 1.4;
 	letter-spacing: 1px;
 }

@@ -47,8 +47,7 @@
 }
 
 .create-section__slider-header {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato-Light', sans-serif;
     color: #ecba55;
     font-size: 50px;
     padding: 60px 0;
@@ -73,8 +72,7 @@
 }
 
 .create-section__slide-header {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-family: 'Lato-Bold', sans-serif;
     font-size: 25px;
     padding: 10px 0;
 }
@@ -93,8 +91,7 @@
 
 .create-section__slide-text {
     text-indent: 20px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato-Light', sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }

@@ -9,15 +9,15 @@
 @import 'aboutSection.css';
 @import 'typesSection.css';
 
-/*@font-face {*/
-    /*font-family: 'Lato-Light';*/
-    /*src: url(../fonts/Lato-light.ttf);*/
-/*}*/
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(../fonts/Lato-light.ttf);
+}
 
-/*@font-face {*/
-    /*font-family: 'Lato-Bold';*/
-    /*src: url(../fonts/Lato-Bold.ttf);*/
-/*}*/
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(../fonts/Lato-Bold.ttf);
+}
 
 @font-face {
     font-family: SnellRoundhand-Bold;
@@ -74,8 +74,7 @@
     color: #353535;
     background-color: #ecba55;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato-Light', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -103,8 +102,7 @@
     color: white;
     text-transform: uppercase;
     border: 2px solid #ecba55;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato-Light', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -130,8 +128,7 @@
     background-color: white;
     text-transform: uppercase;
     border: 2px solid #ecba55;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato-Light', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -214,8 +211,7 @@ h2 {
 
 h3 {
     font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato-Light', sans-serif;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
@@ -300,8 +296,7 @@ a{
     color: #353535;
     background-color: #ecba55;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lato-Light', sans-serif;
     letter-spacing: 1px;
     transition: background-color .2s ease-in-out;
     height: 2.5vw;
