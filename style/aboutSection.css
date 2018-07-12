@@ -22,6 +22,16 @@
     .about_title-block{
         align-items: center;
     }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about-inner-container {
+        margin: 0;
+    }
 }
 
 .about_types__title-block{
