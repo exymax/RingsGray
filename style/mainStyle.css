@@ -63,6 +63,12 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .inner-container {
+        width: 90%;
+    }
+}
+
 
 .button {
     display: flex;
@@ -249,7 +255,7 @@ h3 {
 
 @media screen and (max-device-width: 1200px) {
     h3{
-        font-size: 34px;
+        font-size: 40px;
     }
 }
 
