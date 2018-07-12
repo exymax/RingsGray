@@ -326,7 +326,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px 2px rgba(0, 0, 0, 0.2);
 }
 .popup form{
     margin: 0 auto;
@@ -353,7 +353,7 @@ a{
 .button:hover{
     cursor: pointer;
     background-color: #fbb11d;
-    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 40px 5px rgba(0, 0, 0, 0.2);
 }
 
 .button-default:hover{

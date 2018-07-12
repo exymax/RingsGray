@@ -44,8 +44,20 @@
 	}
 }
 
-.benefits-list__point:nth-child(1) {
-	margin-top: 0;
+@media screen and (min-device-width: 1100px) and (max-device-width: 1200px) {
+	.benefits-list{
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-device-width: 1100px) {
+	.benefits-list{
+		font-size: 18px;
+	}
+}
+
+.switch-panel-button:nth-child(1) {
+	margin-top: 10px;
 }
 
 .switch-panel-button{
@@ -56,6 +68,12 @@
 	font-family: Lato-Light, sans-serif;
 	display: inline-block;
 	width: max-content;
+}
+
+@media screen and (max-width: 1200px) {
+	.switch-panel-button{
+		margin-top: 5%;
+	}
 }
 
 .switch-panel-button:hover{
@@ -103,6 +121,14 @@
 	}
 }
 
+@media screen and (max-width: 1200px) {
+	.ringsSecondBlock{
+		width: 14%;
+		top: 18%;
+		left: 41%;
+	}
+}
+
 .briliantsSecondBlock{
 	position: absolute;
 	bottom: -27%;
@@ -140,6 +166,22 @@
 	}
 }
 
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+	.briliantsSecondBlock{
+		bottom: -10%;
+		width: 25%;
+		right: -25%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.briliantsSecondBlock{
+		bottom: -7%;
+		width: 25%;
+		right: -28%;
+	}
+}
+
 .secondSection_rhombus{
 	position: absolute;
 	right: 0;
@@ -150,6 +192,20 @@
 	border-radius: 6px;
 	text-align: center;
 	background-color: transparent;
+}
+
+@media screen and (min-device-width: 1100px) and (max-width: 1200px) {
+	.secondSection_rhombus{
+		right: -6%;
+		top: -23%;
+	}
+}
+
+@media screen and (max-device-width: 1100px) {
+	.secondSection_rhombus{
+		right: -7%;
+		top: -28%;
+	}
 }
 
 .second-section_rhombus-content{
@@ -173,6 +229,13 @@
 	}
 }
 
+@media screen and (max-width: 1200px) {
+	.second-section_info-title{
+		font-size: 25px;
+		margin-bottom: 5%;
+	}
+}
+
 .second-section_info-paragraph{
 	font-family: 'Lato-Light', sans-serif;
 	font-size: 18px;
@@ -183,5 +246,17 @@
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
 	.second-section_info-paragraph{
 		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+	.second-section_info-paragraph{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.second-section_info-paragraph{
+		font-size: 11px;
 	}
 }
