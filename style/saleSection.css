@@ -8,6 +8,7 @@
     height: 36vw;
 }
 
+
 .sale-section__inner-container {
     padding: 50px 0;
     margin-right: 18vw;
@@ -30,4 +31,19 @@
 .sale-section__button-container{
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .sale-section {
+        height: auto;
+    }
+    .sale-section__inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0,0,0, 0.7) ;
+        margin-right: 0;
+    }
 }
