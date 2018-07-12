@@ -22,6 +22,12 @@ function changeRing(slideNumber) {
   $('.types-section__type-description').html(rings[slideNumber].description);
 }
 
+
+function onSlideChange(slideNumber) {
+  $('.create-section__slider-label-number--left').html(slideNumber);
+  $('.create-section__slider-header').html('Шаг ' + slideNumber);
+}
+
 $(document).ready(function(){
   $('.about-slider').slick({
     infinite: false,
@@ -30,7 +36,17 @@ $(document).ready(function(){
     slidesToScroll: 1,
     dots: true,
   });
+
+  $('.create-section__slider-controller--right').on('click', function(){
+    $('.create-section__slider').slick("slickNext");
+  });
+
+  $('.create-section__slider-controller--left').on('click', function(){
+    $('.create-section__slider').slick("slickPrev");
+  });
 });
+
+
 
 $(document).ready(function(){
     $('.create-section__slider').slick({
@@ -38,8 +54,13 @@ $(document).ready(function(){
         draggable: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
+        dots: false,
+
     });
+
+  $(".create-section__slider").on("afterChange", function (event, slick, slide) {
+    onSlideChange(slide+1);
+  });
 });
 
 $(document).ready(function(){

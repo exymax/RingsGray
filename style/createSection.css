@@ -43,7 +43,7 @@
 
 
 .create-section__slider {
-
+    width: 60%;
 }
 
 .create-section__slider-header {
@@ -67,8 +67,8 @@
 }
 
 .create-section__slide {
-    margin-right: 21vw;
-    display: flex;
+    display: flex !important;
+    padding: 5px;
     flex-direction: column;
 }
 
@@ -175,6 +175,24 @@
 
 .create-section__slider-controller--left {
     transform: rotate(180deg);
+}
+
+
+
+.create-section .slick-next::before, .slick-prev:before {
+    content: "";
+}
+
+.create-section .slick-next {
+    display: none;
+}
+
+.create-section .slick-prev {
+    display: none;
+}
+
+.create-section .slick-slide:focus {
+    outline: none;
 }
 
 
