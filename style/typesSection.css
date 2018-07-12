@@ -8,6 +8,21 @@
     padding-bottom: 50px;
 }
 
+@media screen and (max-width: 1200px) {
+    .types-section__inner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .types-section__title-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
 .types-section__left-container {
     display: flex;
     flex-direction: column;
@@ -30,6 +45,13 @@
 
 .types-section__buttons {
     display: flex;
+}
+
+@media screen and (max-device-width: 1200px) {
+    .types-section__buttons{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .types-section .types-section__button {
