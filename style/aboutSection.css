@@ -37,13 +37,13 @@
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
     .about_info-block{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     .about_info-block{
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 
