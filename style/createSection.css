@@ -195,5 +195,30 @@
     outline: none;
 }
 
+@media screen and (max-width: 1200px) {
+    .create-section {
+    }
+    .create-section__inner-container {
+        justify-content: center;
+    }
+
+    .create-section__main-image-container {
+
+    }
+
+    .create-section__slider-container {
+        width: 80%;
+    }
+
+    .create-section__slider-header {
+        padding: 20px;
+    }
+
+    .create-section__info-container {
+       align-items: center;
+        width: 100%;
+    }
+}
+
 
 

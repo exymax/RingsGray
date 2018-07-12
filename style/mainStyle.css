@@ -256,6 +256,12 @@ section {
     top: 129vw;
 }
 
+@media screen and (max-width: 1200px) {
+    .section-background-line, .section-background-line-container {
+        display: none;
+    }
+}
+
 .section-container {
 }
 
@@ -299,6 +305,11 @@ a{
     text-align: center;
     margin: 2% 0;
 }
+
+.popup form label .warning {
+    border: 1px solid red;
+}
+
 .popup .btn{
     margin: 10px auto 0;
     line-height: 3vw;
