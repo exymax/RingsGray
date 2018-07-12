@@ -161,6 +161,13 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .header-section_button{
+        font-size: 18px;
+        padding: 5% 4%;
+    }
+}
+
 .dream-section_button{
     padding: 5% 6%;
 }
