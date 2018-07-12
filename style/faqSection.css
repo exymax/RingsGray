@@ -91,3 +91,25 @@
     width: 18vw;
     height: 14vw;
 }
+
+@media screen and (max-device-width: 1200px) {
+    .faq-section__inner-container {
+        padding-top: 130px;
+    }
+    .faq-section .faq-section__title {
+        text-align: center;
+    }
+
+    .faq-section .faq-section__info {
+        text-align: center;
+    }
+
+    .faq-section__element-header {
+        font-size: 19px;
+    }
+
+    .faq-section__list-header {
+        font-size: 35px;
+    }
+}
+

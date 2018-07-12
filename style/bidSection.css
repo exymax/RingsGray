@@ -36,13 +36,6 @@
     height: 29vw;
 }
 
-@media screen and (max-device-width: 1200px) {
-    .bid-section__rhombus{
-        width: 32vw;
-        height: 32vw;
-    }
-}
-
 .bid-section .bid-section__button {
     padding: 26px 8%;
 }
@@ -83,29 +76,18 @@
 }
 
 @media screen and (max-device-width: 1200px) {
-    .bid-section .bid-section__button {
-        font-size: 16px;
-    }
-    .bid-section__rhombus-content-text {
-        font-size: 22px;
+    .bid-section__rhombus{
+        width: 40vw;
+        height: 40vw;
     }
 
     .bid-section__inner-container {
-        margin: 50px 20px;
+        padding: 50px 0;
     }
 
-    .bid-section__rhombus-container {
-        position: absolute;
-        top: 1px;
-        bottom: 1px;
-        right: 1px;
-        left: 1px;
-        font-size: 22px;
-        background: transparent;
-    }
-
-    .bid-section__image-container {
-        top: 10%;
+    .bid-section__rhombus-content-text {
+        font-size: 35px;
+        padding: 10px;
     }
 }
 /*@media screen and (max-device-width: 890px) {*/

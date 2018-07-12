@@ -132,3 +132,21 @@
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (max-device-width: 1200px) {
+
+    .contact-section__info-container {
+        flex-direction: column;
+    }
+   .contact-section__info {
+       justify-content: space-between;
+       flex-direction: row;
+       width: 100%;
+   }
+
+   .contact-section__info-block {
+       width: 30%;
+   }
+
+}
+
