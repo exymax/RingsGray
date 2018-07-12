@@ -95,9 +95,10 @@
 
 .types-section__type-title {
     font-size: 25px;
-    padding: 10px;
+    padding: 10px 20px;
     font-family: 'Lato', sans-serif;
     color: #a1a1a1;
+    cursor: pointer;
     font-weight: 500;
 }
 
