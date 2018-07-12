@@ -55,6 +55,7 @@
 	margin-top: 11%;
 	font-family: Lato, sans-serif;
 	display: inline-block;
+	width: max-content;
 }
 
 .switch-panel-button:hover{
@@ -67,6 +68,7 @@
 .input-button-part{
 	display: none;
 }
+
 
 .input-open:checked + .switch-panel-button,
 .input-button-part:checked + .button-open{
@@ -172,7 +174,11 @@
 }
 
 .second-section_info-paragraph{
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.4;
+	letter-spacing: 1px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
