@@ -76,14 +76,16 @@
 }
 
 @media screen and (max-device-width: 1200px) {
-    .bid-section__rhombus{
-        width: 40vw;
-        height: 40vw;
+    .bid-section__rhombus {
+        width: 48vw;
+        height: 48vw
     }
 
     .bid-section__inner-container {
-        padding: 50px 0;
+        margin: 0;
+        padding: 100px 0;
     }
+
 
     .bid-section__rhombus-content-text {
         font-size: 35px;

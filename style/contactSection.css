@@ -134,19 +134,17 @@
 }
 
 @media screen and (max-device-width: 1200px) {
-
-    .contact-section__info-container {
+    .contact-section .contact-section__inner-container {
         flex-direction: column;
+        margin: 0;
     }
-   .contact-section__info {
-       justify-content: space-between;
-       flex-direction: row;
-       width: 100%;
-   }
 
-   .contact-section__info-block {
-       width: 30%;
-   }
+    .contact-section .contact-section__button {
+        font-size: 23px;
+    }
 
+    .contact-section__number-text {
+       font-size: 26px;
+    }
 }
 
