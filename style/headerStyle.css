@@ -25,7 +25,7 @@
 
 @media screen and (max-device-width: 1200px) {
 	.header-container__contacts-container{
-		height: 3vw;
+		height: 5vw;
 		justify-content: center;
 		width: 100%;
 	}
@@ -50,6 +50,12 @@
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
 	.logo{
 		width: 22%;
+	}
+}
+
+@media screen and (max-device-width: 1200px) {
+	.logo{
+		width: 34%;
 	}
 }
 
@@ -125,7 +131,7 @@
 
 @media screen and (max-device-width: 1200px) {
 	.header-container__title{
-		font-size: 35px;
+		font-size: 27px;
 		width: 100%;
 		margin-top: 3%;
 		justify-content: center;

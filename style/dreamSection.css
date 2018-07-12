@@ -17,6 +17,13 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .dream-section{
+        height: 48vw;
+        background-position: center;
+    }
+}
+
 .dream-section-container{
     display: flex;
     flex-direction: column;
@@ -53,3 +60,10 @@
     margin-top: 10.5%;
 }
 
+@media screen and (max-width: 1200px) {
+    .dream-section_buttons{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4%;
+    }
+}
