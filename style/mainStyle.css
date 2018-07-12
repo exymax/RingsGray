@@ -233,21 +233,27 @@ h3 {
 section {
     width: 100%;
     position: relative;
-    overflow: visible;
+}
+
+.section-background-line-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
 }
 
 .section-background-line {
-    height: 200%;
+    height: 100px;
     background-color: #eeedf2;
     position: absolute;
-    transform: rotate(45deg);
-    width: 553px;
-    top: -12vw;
+    transform: rotate(45deg) scaleY(100);
+    width: 38vw;
+    top: 129vw;
 }
 
-
-section .section-container {
-    overflow: hidden;
+.section-container {
 }
 
 a{
