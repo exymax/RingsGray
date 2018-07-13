@@ -136,7 +136,7 @@ $(document).ready(function(){
 
     });
 
-  // onChangeRingType('twin')
+  onChangeRingType('twin');
   //   $('.about-slider').on('click', '.about-slide', function (slide, e, v) {
   //   debugger;
   // });
