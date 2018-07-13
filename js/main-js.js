@@ -64,6 +64,8 @@ function onChangeRingType(ringType) {
     $('.types-section__slider').slick('slickAdd', "<div class='types-section__slider-slide'>"  + `<img class="types-section__slider-slide-image" src="images/rings/${image}.jpg" alt="">` + '</div>');
   });
   // $('.types-section__slider').slick('slickAdd', slides);
+
+
 }
 
 $(document).ready(function(){
@@ -134,6 +136,9 @@ $(document).ready(function(){
 
     });
 
-  onChangeRingType('twin')
+  // onChangeRingType('twin')
+  //   $('.about-slider').on('click', '.about-slide', function (slide, e, v) {
+  //   debugger;
+  // });
 
 });
