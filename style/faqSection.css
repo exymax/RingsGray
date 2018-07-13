@@ -105,11 +105,37 @@
     }
 
     .faq-section__element-header {
-        font-size: 19px;
+        font-size: 33px;
+        text-align: left;
     }
 
     .faq-section__list-header {
-        font-size: 35px;
+        font-size: 40px;
     }
+
+    .faq-section .faq-section__list-elements-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-section__list {
+        text-align: center;
+    }
+
+    .faq-section__list-element {
+        width: auto;
+    }
+
+    .faq-section__element-text {
+        text-align: left;
+        font-size: 32px;
+    }
+
+    .faq-section__image {
+        width: 27vw;
+        height: 23vw;
+    }
+
 }
 

@@ -330,10 +330,11 @@ a{
     top: 50%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-device-width: 1200px) {
     .popup{
         width: 80%;
-        height: 80%;
+        margin: 0;
+        height: auto;
     }
 }
 /* End style popup*/
@@ -361,13 +362,18 @@ a{
     line-height: 20px;
     text-align: center;
     padding-bottom: 28px;
+    font-family: 'Lato-Light',sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
     .popup_h2{
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 33px;
+        line-height: 50px;
         margin-top: 20px;
+    }
+
+    .popup_close {
+        transform: scale(2);
     }
 }
 

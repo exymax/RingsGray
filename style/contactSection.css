@@ -137,14 +137,40 @@
     .contact-section .contact-section__inner-container {
         flex-direction: column;
         margin: 0;
+        padding: 50px 0 135px 0;
     }
 
     .contact-section .contact-section__button {
-        font-size: 20px;
+        padding: 8.5% 7%;
+    }
+
+    .contact-section .contact-section__info-block-title {
+        font-size: 37px;
+    }
+
+    .contact-section__info {
+        width: 49%;
+        align-items: center;
     }
 
     .contact-section__number-text {
-       font-size: 26px;
+       font-size: 32px;
+    }
+
+    .contact-section__text {
+        font-size: 29px;
+    }
+
+    .contact-section__feedback-text {
+        font-size: 31px;
+    }
+
+    .contact-section__numbers-container {
+        justify-content: space-around;
+    }
+
+    .contact-section__numbers-description {
+        padding-left: 30px;
     }
 }
 
