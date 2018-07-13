@@ -447,11 +447,11 @@
 .types-section .slick-next {
     position: relative;
     right: auto;
-    bottom: -4vw;
+    bottom: -80px;
 }
 
 .types-section .slick-prev {
-    top: -4vw;
+    top: -80px;
     position: relative;
     left: auto;
 }
