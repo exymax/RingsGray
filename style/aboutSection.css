@@ -6,31 +6,57 @@
 
 .about-container{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .about_title-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     width: 100%;
 }
 
 
 .about_types__title-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     width: 100%;
 }
 
 .about_info-block{
     font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-flow: wrap;
     flex-flow: wrap;
     margin-top: 6%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -50,7 +76,12 @@
 
 @media screen and (max-width: 1200px) {
     .about_info-block{
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 }
@@ -106,8 +137,15 @@
 
 .about_types__caption-block{
     margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 36%;
     font-size: 20px;
@@ -118,7 +156,11 @@
 }
 
 .rings-types-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 15px;
     width: 100%;
@@ -145,6 +187,8 @@
 
 .about-slider .slick-prev {
     background: url("../images/arrow-right.png") no-repeat;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -163,11 +207,15 @@
 }
 
 .slick-dots li button {
+    -webkit-transform: scale(3);
+    -ms-transform: scale(3);
     transform: scale(3);
 }
 
 @media screen and (max-width: 1200px) {
     .about_title-block{
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -179,14 +227,25 @@
     }
     .about .about-slider {
         width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin: 70px auto;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
     .about {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -195,18 +254,25 @@
     }
 
     .slick-initialized .slick-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
     .about-slider .slick-next {
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
         transform: scale(2);
     }
 
     .about-slider .slick-prev {
+        -webkit-transform: scale(2) rotate(180deg);
+        -ms-transform: scale(2) rotate(180deg);
         transform: scale(2) rotate(180deg);
     }
 
 
 }
-

@@ -11,8 +11,15 @@
 
 
 .benefits-section-container{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 	position: relative;
 }
@@ -34,6 +41,8 @@
 }
 
 .benefits-section__main-info{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
 	position: relative;
@@ -41,7 +50,12 @@
 
 .benefits-list{
 	font-size: 25px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
 }
 
@@ -85,6 +99,8 @@
 	margin-top: 11%;
 	font-family: Lato-Light, sans-serif;
 	display: inline-block;
+	width: -webkit-max-content;
+	width: -moz-max-content;
 	width: max-content;
 }
 
@@ -199,6 +215,8 @@
 	right: 0;
 	top: -18%;
 	z-index: 2;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	border: 2px solid #ecba55;
 	border-radius: 6px;
@@ -216,11 +234,22 @@
 }
 
 .second-section_rhombus-content{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
 	height: 100%;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
