@@ -54,7 +54,7 @@
     display: flex;
     -ms-flex-flow: wrap;
     flex-flow: wrap;
-    margin-top: 6%;
+    margin-top: 1%;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -107,7 +107,7 @@
 
 .about_info-text{
     font-family: 'Lato-Light', sans-serif;
-    line-height: 1.4;
+    line-height: 1.5;
     width: 41%;
     margin-top: 3%;
     text-align: justify;
@@ -121,9 +121,9 @@
 }
 
 .about-slide {
-    padding: 50px;
+    padding: 50px 10px;
     width: 270px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .about__types-slide{
@@ -164,6 +164,11 @@
     justify-content: space-between;
     margin-top: 15px;
     width: 100%;
+}
+
+.about-slider {
+    margin: auto;
+    width: 60%;
 }
 
 .about-slider_block-text{
