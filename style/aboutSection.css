@@ -61,7 +61,7 @@
     width: 40%;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
     .about_info-block-column{
         width: 90%;
     }
