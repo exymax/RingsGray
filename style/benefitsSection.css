@@ -171,22 +171,22 @@
 
 .briliantsSecondBlock{
 	position: absolute;
-	bottom: -55%;
+	bottom: -53%;
 	right: -18%;
 	z-index: 4;
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1800px) {
 	.briliantsSecondBlock{
-		bottom: -14%;
+		bottom: -42%;
 		width: 25%;
 	}
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1600px) {
 	.briliantsSecondBlock{
-		bottom: 2%;
-		width: 25%;
+		bottom: 16%;
+		width: 19%;
 	}
 }
 
@@ -200,8 +200,8 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1300px) {
 	.briliantsSecondBlock{
-		bottom: -27%;
-		width: 25%;
+		bottom: -42%;
+		width: 21%;
 		right: -15%;
 	}
 }
