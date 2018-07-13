@@ -204,8 +204,12 @@
     }
 
     .create-section__slide-text {
-        font-size: 27px;
+        font-size: 29px;
         text-align: center;
+    }
+
+    .create-section__slider-label {
+        font-size: 65px;
     }
 
     .create-section__main-image-container {
