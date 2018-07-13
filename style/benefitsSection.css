@@ -27,6 +27,12 @@
 	z-index: 3;
 }
 
+@media screen and (max-device-width: 1200px) {
+	.benefits-section__caption{
+		display: none;
+	}
+}
+
 .benefits-section__main-info{
 	display: flex;
 	width: 100%;
@@ -256,7 +262,7 @@
 	}
 
 	.benefits-section .secondSection_rhombus {
-		width: 35vw;
-		height: 35vw;
+		width: 40vw;
+		height: 40vw;
 	}
 }
