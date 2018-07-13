@@ -253,9 +253,25 @@
 	transform: rotate(45deg);
 }
 
+.second-section_title-line{
+	width: 15%;
+	height: 2px;
+	background: #ecba55;
+}
+
 .second-section_info-title{
 	font-size: 30px;
 	margin-bottom: 12%;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+@media screen and (max-width: 1200px) {
+	.second-section_info-title{
+		display: none;
+	}
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
