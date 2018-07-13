@@ -345,11 +345,15 @@
 }
 
 .types-section .slick-next {
-    bottom: -53px;
+    position: relative;
+    right: auto;
+    bottom: -4vw;
 }
 
 .types-section .slick-prev {
-    top: -53px;
+    top: -4vw;
+    position: relative;
+    left: auto;
 }
 
 
@@ -365,14 +369,10 @@
     }
 
     .types-section .slick-next {
-        position: relative;
-        right: auto;
         transform: scale(2) rotate(90deg);
     }
 
     .types-section .slick-prev {
-        position: relative;
-        left: auto;
         transform: scale(2) rotate(-90deg);
     }
 }
