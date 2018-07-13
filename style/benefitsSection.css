@@ -185,14 +185,14 @@
 
 @media screen and (min-width: 1400px) and (max-width: 1600px) {
 	.briliantsSecondBlock{
-		bottom: 16%;
+		bottom: -24%;
 		width: 19%;
 	}
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1400px) {
 	.briliantsSecondBlock{
-		bottom: -38%;
+		bottom: -83%;
 		width: 25%;
 		right: -15%;
 	}
