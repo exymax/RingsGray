@@ -71,7 +71,7 @@ $(document).ready(function(){
   $('.about-slider').slick({
     infinite: false,
     draggable: false,
-    slidesToShow: 3,
+    slidesToShow: window.innerWidth < 1200 ? 1 : 3,
     slidesToScroll: 1,
     dots: true,
   });
