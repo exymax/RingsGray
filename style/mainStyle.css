@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 1200px) {
     .button{
-        font-size: 40px;
+        font-size: 34px;
     }
 }
 
@@ -165,8 +165,8 @@
 
 @media screen and (max-width: 1200px) {
     .button-white{
-        padding: 30px 50px;
-        font-size: 40px;
+        padding: 20px 40px;
+        font-size: 30px;
     }
 }
 

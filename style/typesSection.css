@@ -66,12 +66,6 @@
     margin: 10px;
 }
 
-@media screen and (max-device-width: 1200px) {
-    .types-section .types-section__button{
-        padding: 30px 50px;
-    }
-}
-
 .types-section__name-container {
     align-self: center;
     padding: 20px 0;
