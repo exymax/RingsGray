@@ -1,44 +1,38 @@
 function foo() {
     const tmp1 = _.template('<span class="second-section_info-title">Индивидуальность</span>' +
-        '<p class="second-section_info-paragraph">Мы относимся к созданию обручальных колец</p> \n' +
-        '<p class="second-section_info-paragraph">не просто как к изящному украшению, а как</p> \n' +
-        '<p class="second-section_info-paragraph">к произведению искуства и индивидуальной вещи,</p>\n' +
-        '<p class="second-section_info-paragraph">которую человек носит на протяжение всей его жизни.</p>' +
-        '                        </p>');
+        '<p class="second-section_info-paragraph">Мы относимся к созданию обручальных колец\n' +
+        'не просто как к изящному украшению, а как\n' +
+        'к произведению искуства и индивидуальной вещи,\n' +
+        'которую человек носит на протяжение всей его жизни.</p>');
 
     const tmp2 = _.template('<span class="second-section_info-title">Гарантия качества</span>' +
-        '<p class="second-section_info-paragraph">всё золото и все наши изделия без исключения</p> \n' +
-        '<p class="second-section_info-paragraph">проходят процесс опробирования в Российской</p> \n' +
-        '<p class="second-section_info-paragraph">государственной пробирной палате. </p>\n' +
-        '                        </p>');
+        '<p class="second-section_info-paragraph">всё золото и все наши изделия без исключения\n' +
+        'проходят процесс опробирования в Российской\n' +
+        'государственной пробирной палате.</p>');
 
     const tmp3 = _.template('<span class="second-section_info-title">3-D моделирование</span>' +
-        '<p class="second-section_info-paragraph">Вы сможете наглядно увидеть то кольцо, которое</p> \n' +
-        '<p class="second-section_info-paragraph">вы хотите получить ещё до того, как оно будет</p> \n' +
-        '<p class="second-section_info-paragraph">готово. Тем самым вы избегаете временные и денежные затраты.</p>\n' +
-        '                        </p>');
+        '<p class="second-section_info-paragraph">Вы сможете наглядно увидеть то кольцо, которое\n' +
+        'вы хотите получить ещё до того, как оно будет\n' +
+        'готово. Тем самым вы избегаете временные и денежные затраты.</p>');
 
     const tmp4 = _.template('<span class="second-section_info-title">Дизайн любой сложности</span>' +
-        '<p class="second-section_info-paragraph"> Более, чем за 15 лет опыта нашей работы,</p> \n' +
-        '<p class="second-section_info-paragraph"> мы научились делать кольца практически любого</p> \n' +
-        '<p class="second-section_info-paragraph"> дизайна и сложности. Вы можете предоставить</p>\n' +
-        '<p class="second-section_info-paragraph">нам фото образец кольца или просто рассказать</p>\n' +
-        '<p class="second-section_info-paragraph"> о вашей идее, и мы справимся</p>\n' +
-        '<p class="second-section_info-paragraph">с этой задачей</p>\n' +
-        '                        </p>');
+        '<p class="second-section_info-paragraph"> Более, чем за 15 лет опыта нашей работы,\n' +
+        'мы научились делать кольца практически любого\n' +
+        'дизайна и сложности. Вы можете предоставить\n' +
+        'нам фото образец кольца или просто рассказать\n' +
+        'о вашей идее, и мы справимся\n' +
+        'с этой задачей</p>');
 
     const tmp5 = _.template('<span class="second-section_info-title">Бесшовная технология</span>' +
-        '<p class="second-section_info-paragraph">все наши кольца являются бесшовными, т.е.</p> \n' +
-        '<p class="second-section_info-paragraph">не имеют паянных швов, что делает кольцо</p> \n' +
-        '<p class="second-section_info-paragraph"> ещё более изысканным украшением</p>\n' +
-        '                        </p>');
+        '<p class="second-section_info-paragraph">все наши кольца являются бесшовными, т.е.\n' +
+        'не имеют паянных швов, что делает кольцо\n' +
+        'ещё более изысканным украшением</p>');
 
     const tmp6 = _.template('<span class="second-section_info-title">Скорость выполнения работ</span>' +
-        '<p class="second-section_info-paragraph">скорость изготовления обручальных колец</p> \n' +
-        '<p class="second-section_info-paragraph"> зависит от того, какую модель кольца/p> \n' +
-        '<p class="second-section_info-paragraph"> вы выбираете. В среднем, мы выполняем заказы</p>\n' +
-        '<p class="second-section_info-paragraph">от 14 до 21 дня.</p>\n' +
-        '                        </p>');
+        '<p class="second-section_info-paragraph">скорость изготовления обручальных колец\n' +
+        'зависит от того, какую модель кольца\n' +
+        'вы выбираете. В среднем, мы выполняем заказы\n' +
+        'от 14 до 21 дня.</p>');
 
     let root = document.getElementById("second-section_rhombus-content");
 
