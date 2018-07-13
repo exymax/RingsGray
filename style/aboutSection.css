@@ -1,7 +1,15 @@
 .about{
     width: 100%;
-    background: white url(../images/aboutSectionBackground.png) 69% 3% no-repeat;
-    background-size: 122%;
+    background: white url(../images/aboutSectionBackground.png) 74% 46% no-repeat;
+    background-size: 117%;
+}
+
+@media screen and (max-width: 1500px) {
+    .about{
+        background: white url(../images/aboutSectionBackground.png) 74% 36% no-repeat;
+        background-size: 117%;
+
+    }
 }
 
 .about-container{
@@ -47,17 +55,26 @@
     width: 100%;
 }
 
+.about_info-block-column{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+@media screen and (max-width: 1500px) {
+    .about_info-block-column{
+        width: 90%;
+    }
+}
+
 .about_info-block{
     font-size: 18px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: wrap;
-    flex-flow: wrap;
     margin-top: 1%;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
+
 }
 
 
@@ -108,22 +125,29 @@
 .about_info-text{
     font-family: 'Lato-Light', sans-serif;
     line-height: 1.5;
-    width: 41%;
+    width: 100%;
     margin-top: 3%;
     text-align: justify;
+    margin-bottom: 5%;
 }
 
 @media screen and (max-width: 1200px) {
     .about_info-text{
-        width: 80%;
+        width: 100%;
         font-size: 30px;
     }
 }
 
 .about-slide {
-    padding: 50px 10px;
+    padding: 140px 10px 50px 10px;
     width: 270px;
     margin: 20px 0;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .about-slide{
+        padding: 80px 10px 50px 10px;
+    }
 }
 
 .about__types-slide{
