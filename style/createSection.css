@@ -22,7 +22,7 @@
 
 .create-section__main-image-container {
     position: relative;
-    top: -200px;
+    top: -150px;
     width: 50%;
 }
 
@@ -127,7 +127,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 80px 0;
+    padding: 20px 0;
 }
 
 .create-section__slider-label {
