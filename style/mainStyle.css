@@ -432,7 +432,7 @@ a{
 @media screen and (max-width: 1200px) {
     .popup form label input{
         height: 7.5vw;
-        font-size: 38px;
+        font-size: 15px;
         margin: 3% 0;
     }
 }
@@ -472,7 +472,7 @@ a{
 @media screen and (max-width: 1200px) {
     .popup .btn{
         line-height: 9vw;
-        font-size: 38px;
+        font-size: 15px;
     }
 }
 
