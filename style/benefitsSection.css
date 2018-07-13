@@ -74,7 +74,7 @@
 	}
 }
 
-.switch-panel-button:nth-child(1) {
+.switch-panel-button:first-of-type {
 	margin-top: 10px;
 }
 
@@ -91,6 +91,10 @@
 @media screen and (max-width: 1200px) {
 	.switch-panel-button{
 		margin-top: 5%;
+	}
+
+	.switch-panel-button:first-of-type {
+		margin-top: 20px;
 	}
 }
 

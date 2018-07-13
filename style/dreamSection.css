@@ -72,6 +72,12 @@
     margin-top: 10.5%;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1800px) {
+    .dream-section_buttons {
+        width: 47%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .dream-section_buttons{
         flex-direction: column;
