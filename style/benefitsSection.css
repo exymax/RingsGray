@@ -272,7 +272,8 @@
 	}
 }
 
-.second-section_info-paragraph{
+.second-section_info-paragraph {
+	display: table-footer-group; //for IE11
 	font-family: 'Lato-Light', sans-serif;
 	font-size: 18px;
 	line-height: 1.4;
