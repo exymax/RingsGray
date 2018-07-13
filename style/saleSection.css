@@ -14,8 +14,14 @@
 
 
 .sale-section__inner-container {
-    padding: 50px 0;
+    padding: 65px 0;
     margin-right: 18vw;
+}
+
+.sale-section .sale-section__button {
+    padding: 6.5% 18%;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 .sale-section__info {
@@ -44,7 +50,6 @@
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
 }
 
 @media screen and (max-device-width: 1200px) {
