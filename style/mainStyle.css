@@ -511,14 +511,29 @@ a{
 
 .diplom-popup {
     background-color: transparent;
-    top: 18%;
+    top: 0;
     left: auto;
+    padding-top: 30px;
 }
 
 .diplom-popup_close {
     top: 16px;
     right: 14px;
 }
+
+
+@media screen and (max-device-width: 1200px) {
+    .diplom-popup {
+        width: auto;
+    }
+
+    .diplom__image-container {
+        width: 90vw;
+        height: 90vh;
+    }
+}
+
+
 
 .btn:hover,
 .button:hover{

@@ -108,6 +108,7 @@ function popup(id, form, h1, h2, btn) {
 
 function popupDiplom(dimpomIndex) {
   $('.popup_overlay').show();
+  $('.diplom__image').attr('src', `images/diploms/${dimpomIndex}.jpg`);
   $('#' + 'diplom').addClass('activePopup');
   $('.activePopup').show();
 }
