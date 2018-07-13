@@ -77,19 +77,24 @@
 
 @media screen and (max-device-width: 1200px) {
     .bid-section__rhombus {
-        width: 48vw;
-        height: 48vw
+        width: 54vw;
+        height: 54vw;
+    }
+
+    .bid-section__rhombus-image {
+        left: -4vw;
+        top: 44vw;
     }
 
     .bid-section__inner-container {
         margin: 0;
-        padding: 100px 0;
+        padding: 150px 0;
     }
 
 
     .bid-section__rhombus-content-text {
-        font-size: 35px;
-        padding: 10px;
+        font-size: 39px;
+        padding: 16px;
     }
 }
 /*@media screen and (max-device-width: 890px) {*/
