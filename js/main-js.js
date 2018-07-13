@@ -52,6 +52,8 @@ function getCreateSectionSlideQuntity () {
 
 function onChangeRingType(ringType) {
   const ring = rings[ringType];
+  $('.types-section__type-title--active').removeClass('types-section__type-title--active');
+  $('.' + ringType).addClass('types-section__type-title--active');
 
   $('.types-section__name-label').html(ring.name);
   $('.types-section__type-description').html(ring.description);
@@ -87,7 +89,6 @@ $(document).ready(function(){
 
   $('.diamond').on('click', function(event){
     onChangeRingType('diamond');
-
   });
 
   $('.classic').on('click', function(event){

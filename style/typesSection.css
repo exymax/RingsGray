@@ -195,6 +195,11 @@
     cursor: pointer;
 }
 
+.types-section__type-title--active {
+    color: black;
+    cursor: auto;
+}
+
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
     .types-section__type-title {
         font-size: 23px;
