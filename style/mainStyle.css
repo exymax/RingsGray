@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 1200px) {
     .button{
-        font-size: 34px;
+        font-size: 40px;
     }
 }
 
@@ -163,10 +163,10 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     .button-white{
-        padding: 20px 40px;
-        font-size: 30px;
+        padding: 30px 50px;
+        font-size: 40px;
     }
 }
 
