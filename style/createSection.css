@@ -199,12 +199,13 @@
     }
 
     .create-section__slide-header{
-        font-size: 29px;
+        font-size: 32px;
         text-align: center;
     }
 
     .create-section__slide-text {
-        font-size: 25px;
+        font-size: 27px;
+        text-align: center;
     }
 
     .create-section__main-image-container {
@@ -217,6 +218,15 @@
         align-items: center;
         width: 70%;
     }
+
+    .create-section__slider-controller--right {
+        transform: scale(1.5);
+    }
+
+    .create-section__slider-controller--left {
+        transform: scale(1.5) rotate(180deg);
+    }
+
 
     .create-section__main-image {
         width: 47vw;
