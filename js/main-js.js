@@ -137,8 +137,8 @@ $(document).ready(function(){
     });
 
   onChangeRingType('twin');
-  //   $('.about-slider').on('click', '.about-slide', function (slide, e, v) {
-  //   debugger;
-  // });
-
+    $('.about-slider').on('click', '.about-slide', function (event) {
+      let slideClicked = $(event.currentTarget).attr("data-slick-index");
+      popupDiplom(slideClicked + 1);
+  });
 });

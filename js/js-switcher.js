@@ -106,6 +106,13 @@ function popup(id, form, h1, h2, btn) {
     $('.formname').attr("value", form);
 }
 
+function popupDiplom(dimpomIndex) {
+  $('.popup_overlay').show();
+  $('#' + 'diplom').addClass('activePopup');
+  $('.activePopup').show();
+}
+
+
 function popup_out() {
     $('.popup_overlay').hide();
     $('.popup').hide();
