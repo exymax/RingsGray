@@ -290,10 +290,10 @@
 
 .second-section_info-paragraph {
 	display: table-footer-group; //for IE11
-	font-family: 'Lato-Light', sans-serif;
 	font-size: 18px;
 	line-height: 1.4;
 	letter-spacing: 1px;
+	font-family: 'Lato-Light', sans-serif;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
