@@ -1,6 +1,6 @@
 .about{
     width: 100%;
-    background: white url(../images/aboutSectionBackground.png) 74% 46% no-repeat;
+    background: white url(../images/aboutSectionBackground.png) 74% 38% no-repeat;
     background-size: 117%;
 }
 
@@ -139,9 +139,9 @@
 }
 
 .about-slide {
-    padding: 140px 10px 50px 10px;
-    width: 270px;
-    margin: 20px 0;
+   padding: 0 10px;
+   width: 270px;
+   margin: 0; 
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
