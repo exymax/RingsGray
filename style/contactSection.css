@@ -95,6 +95,7 @@
 
 .contact-section__number-text {
     font-size: 30px;
+    color: black;
     font-family: 'Lato-Bold', sans-serif;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;

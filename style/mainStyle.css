@@ -422,7 +422,7 @@ a{
     height: 2.5vw;
     line-height: 60px;
     border-radius: 2px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     border: 1px solid rgb(200, 200, 200);
     text-align: center;
@@ -447,7 +447,7 @@ a{
     width: 100%;
     text-align: center;
     border-radius: 100px;
-    font-size: 20px;
+    font-size: 15px;
     color: #353535;
     background-color: #ecba55;
     text-transform: uppercase;
