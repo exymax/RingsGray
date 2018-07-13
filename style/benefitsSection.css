@@ -3,6 +3,10 @@
 	height: 37.4vw;
 }
 
+.second-section_info-paragraph {
+	font-size: 18px;
+}
+
 @media screen and (max-width: 1200px) {
 	.benefits-section{
 		height: 57.4vw;
@@ -252,6 +256,7 @@
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
 
 .second-section_title-line{
 	width: 15%;
