@@ -158,6 +158,10 @@
     height: 100%;
 }
 
+.about-slide-image:hover{
+    cursor: pointer;
+}
+
 .about_types__caption-block{
     margin: 20px 0;
     display: -webkit-box;
