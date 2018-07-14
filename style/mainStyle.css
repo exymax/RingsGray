@@ -511,9 +511,9 @@ a{
 
 .diplom-popup {
     background-color: transparent;
-    top: 25%;
-    left: auto;
-    padding-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
 }
 
 .diplom-popup_close {
@@ -525,12 +525,11 @@ a{
 @media screen and (max-device-width: 1200px) {
     .diplom-popup {
         width: auto;
-        top: 0;
     }
 
     .diplom__image-container {
-        width: 90vw;
-        height: 90vh;
+        width: 85vw;
+        height: 85vh;
     }
 }
 
