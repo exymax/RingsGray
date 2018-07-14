@@ -169,51 +169,6 @@
 	}
 }
 
-.briliantsSecondBlock{
-	position: absolute;
-	bottom: -53%;
-	right: -18%;
-	z-index: 4;
-}
-
-@media screen and (min-width: 1600px) and (max-width: 1800px) {
-	.briliantsSecondBlock{
-		bottom: -42%;
-		width: 25%;
-	}
-}
-
-@media screen and (min-width: 1400px) and (max-width: 1600px) {
-	.briliantsSecondBlock{
-		bottom: -24%;
-		width: 19%;
-	}
-}
-
-@media screen and (min-width: 1300px) and (max-width: 1400px) {
-	.briliantsSecondBlock{
-		bottom: -65%;
-    width: 25%;
-    right: -17%;
-}
-	}
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1300px) {
-	.briliantsSecondBlock{
-		bottom: -42%;
-		width: 21%;
-		right: -15%;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	.briliantsSecondBlock{
-		bottom: -32%;
-		width: 20%;
-		right: -6%;
-	}
-}
 
 .secondSection_rhombus{
 	position: absolute;
@@ -322,3 +277,50 @@
 	.benefits-section .secondSection_rhombus {
 	}
 }
+
+.briliantsSecondBlock{
+	position: absolute;
+	bottom: -53%;
+	right: -18%;
+	z-index: 4;
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+	.briliantsSecondBlock{
+		bottom: -42%;
+		width: 25%;
+	}
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+	.briliantsSecondBlock{
+		bottom: -24%;
+		width: 19%;
+	}
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+	.briliantsSecondBlock{
+		bottom: -65%;
+    width: 25%;
+    right: -17%;
+}
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+	.briliantsSecondBlock{
+		bottom: -52%;
+		width: 21%;
+		right: -15%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.briliantsSecondBlock{
+		bottom: -32%;
+		width: 20%;
+		right: -6%;
+	}
+}
+
