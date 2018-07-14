@@ -139,6 +139,10 @@
     }
 }
 
+.about-slid:hover{
+    cursor: pointer;
+}
+
 .about-slide {
    padding: 0 10px 25px 10px;
    width: 270px;
