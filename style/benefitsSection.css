@@ -184,12 +184,21 @@
 	background-color: transparent;
 }
 
-@media screen and (max-device-width: 1200px) {
+@media screen and (min-device-width: 1100px) and (max-device-width: 1200px) {
 	.secondSection_rhombus{
-		width: 48vw;
-		height: 48vw;
-		right: -2%;
-		top: -13%;
+		width: 40vw;
+		height: 40vw;
+		right: 5%;
+		top: 0;
+	}
+}
+
+@media screen and (max-device-width: 1100px) {
+	.secondSection_rhombus{
+		width: 40vw;
+		height: 40vw;
+		right: 2%;
+		top: 0;
 	}
 }
 
@@ -271,7 +280,7 @@
 
 @media screen and (max-width: 1100px) {
 	.second-section_info-paragraph{
-		font-size: 25px;
+		font-size: 23px;
 	}
 
 	.benefits-section .secondSection_rhombus {
@@ -315,11 +324,19 @@
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
 	.briliantsSecondBlock{
-		bottom: -32%;
+		bottom: -92%;
 		width: 20%;
-		right: -6%;
+		right: -2%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.briliantsSecondBlock{
+		bottom: -27%;
+		width: 20%;
+		right: -2%;
 	}
 }
 
