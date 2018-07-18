@@ -176,6 +176,7 @@
     border: 2px solid #ecba55;
     font-family: 'Lato-Light', sans-serif;
     letter-spacing: 2px;
+    color: black;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {

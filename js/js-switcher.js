@@ -14,7 +14,7 @@ function foo() {
         '             <span>Гарантия качества</span>\n' +
         '             <div class="second-section_title-line"></div>\n' +
         '         </div>\n' +
-        '         <p class="second-section_info-paragraph">всё золото и все наши изделия без исключения\n' +
+        '         <p class="second-section_info-paragraph">Всё золото и все наши изделия без исключения\n' +
         'проходят процесс опробирования в Российской\n' +
         'государственной пробирной палате.</p>');
 
@@ -44,7 +44,7 @@ function foo() {
         '             <span>Бесшовная технология</span>\n' +
         '             <div class="second-section_title-line"></div>\n' +
         '         </div>\n' +
-        '         <p class="second-section_info-paragraph">все наши кольца являются бесшовными, т.е.\n' +
+        '         <p class="second-section_info-paragraph">Все наши кольца являются бесшовными, т.е.\n' +
         'не имеют паянных швов, что делает кольцо\n' +
         'ещё более изысканным украшением</p>');
 
@@ -53,7 +53,7 @@ function foo() {
         '             <span>Скорость выполнения работ</span>\n' +
         '             <div class="second-section_title-line"></div>\n' +
         '         </div>\n' +
-        '         <p class="second-section_info-paragraph">скорость изготовления обручальных колец\n' +
+        '         <p class="second-section_info-paragraph">Скорость изготовления обручальных колец\n' +
         'зависит от того, какую модель кольца\n' +
         'вы выбираете. В среднем, мы выполняем заказы\n' +
         'от 14 до 21 дня.</p>');
