@@ -124,10 +124,12 @@
         padding: 16px;
     }
 }
-/*@media screen and (max-device-width: 890px) {*/
-/*.bid-section__image-container {*/
-/*display: none;*/
-/*}*/
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .bid-section__rhombus-content-text{
+        padding: 4% 0 4% 0;
+        font-size: 25px;
+    }
+}
 
 /*.bid-section__inner-container {*/
 /*margin: 100px 20px;*/
