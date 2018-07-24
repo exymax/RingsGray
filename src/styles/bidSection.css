@@ -1,0 +1,188 @@
+.bid-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #111111;
+    position: relative;
+
+}
+
+.bid-section__inner-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    background: url(../images/bidSectionDiamondBackground.png) no-repeat;
+    height: 49vw;
+    background-size: contain;
+    margin: 0 191px;
+}
+
+.bid-section__image-container {
+    position: absolute;
+    top: 32%;
+    left: 0;
+    width: 14vw;
+    height: 14vw;
+}
+
+.bid-section__image {
+    width: 100%;
+    height: 100%;
+}
+
+.bid-section__rhombus {
+    width: 29vw;
+    height: 29vw;
+}
+
+.bid-section .bid-section__button {
+    padding: 26px 8%;
+}
+
+.bid-section__rhombus-container {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    right: 40px;
+    left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.bid-section__rhombus-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bid-section__rhombus-content-text {
+    text-align: center;
+    line-height: 1.3;
+    padding: 10% 0 15% 0;
+}
+
+.bid-section__rhombus-image {
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+    left: -6vw;
+    top: -9vw;
+    width: 10vw;
+    height: 19vw;
+}
+
+@media screen and (max-device-width: 1200px) {
+    .bid-section__rhombus {
+        width: 54vw;
+        height: 54vw;
+    }
+
+    .bid-section__rhombus-image {
+        left: -4vw;
+        top: 44vw;
+    }
+
+    .bid-section__inner-container {
+        margin: 0;
+        padding: 150px 0;
+    }
+
+
+    .bid-section__rhombus-content-text {
+        font-size: 39px;
+        padding: 16px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .bid-section__rhombus-content-text{
+        padding: 4% 0 4% 0;
+        font-size: 25px;
+    }
+}
+
+/*.bid-section__inner-container {*/
+/*margin: 100px 20px;*/
+/*}*/
+/*}*/
+/*@media screen and (max-device-width: 650px) {*/
+/*.bid-section__image-container {*/
+/*display: none;*/
+/*}*/
+
+/*.bid-section__rhombus-image {*/
+/*left: 20vw;*/
+/*}*/
+
+/*.bid-section__rhombus-content-text {*/
+/*padding: 14px 0;*/
+/*}*/
+
+/*.bid-section__rhombus {*/
+/*width: 300px;*/
+/*height: 300px;*/
+/*}*/
+
+/*.bid-section__inner-container {*/
+/*margin: 100px 0;*/
+/*}*/
+/*}*/
+/*@media screen and (max-device-width: 550px) {*/
+/*.bid-section .bid-section__button {*/
+/*padding: 17px 8%;*/
+/*font-size: 12px;*/
+/*}*/
+
+/*.bid-section__image-container {*/
+/*display: none;*/
+/*}*/
+
+/*.bid-section__rhombus {*/
+/*width: 250px;*/
+/*height: 250px;*/
+/*}*/
+
+
+/*.bid-section__rhombus-content-text {*/
+/*padding: 14px 0;*/
+/*}*/
+
+
+/*.bid-section__rhombus-content-text {*/
+/*font-size: 19px;*/
+/*}*/
+
+/*.bid-section__inner-container {*/
+/*margin: 100px 0;*/
+/*}*/
+/*}*/
